@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky"></div>
+  <div class="stars" id="stars"></div>
+  <div class="fireworks" id="fireworks"></div>
+
+  <div class="overlay" id="intro">
+    <button id="openBtn" class="gift-btn">Abrir presente</button>
+  </div>
+
+  <div class="message hidden" id="message">
+    <h1>Uma flor para</h1>
+    <p>uma mulher linda 💙</p>
+  </div>
+
+  <main class="scene">
+    <div class="ground-glow"></div>
+
+    <section class="garden">
+      <!-- ESQUERDA -->
+      <div class="flower flower-left delay-1">
+        <svg class="flower-svg" viewBox="0 0 260 580" aria-hidden="true">
+          <path
+            class="stem-path"
+            d="M130 560
+               C 90 500, 175 450, 132 380
+               C 92 322, 170 275, 132 210
+               C 106 165, 150 120, 130 78"
+            pathLength="100"
+          />
+
+          <ellipse class="leaf leaf-1" cx="105" cy="390" rx="20" ry="46" transform="rotate(-55 105 390)" />
+          <ellipse class="leaf leaf-2" cx="154" cy="330" rx="18" ry="42" transform="rotate(45 154 330)" />
+          <ellipse class="leaf leaf-3" cx="108" cy="262" rx="16" ry="36" transform="rotate(-48 108 262)" />
+
+          <g class="bloom" transform="translate(130 78)">
+            <ellipse class="petal petal-top" cx="0" cy="-34" rx="26" ry="46" />
+            <ellipse class="petal petal-left" cx="-30" cy="-8" rx="24" ry="42" />
+            <ellipse class="petal petal-right" cx="30" cy="-8" rx="24" ry="42" />
+            <ellipse class="petal petal-bottom-left" cx="-18" cy="24" rx="22" ry="36" />
+            <ellipse class="petal petal-bottom-right" cx="18" cy="24" rx="22" ry="36" />
+            <ellipse class="petal petal-bottom" cx="0" cy="20" rx="30" ry="22" />
+            <ellipse class="center-dot" cx="0" cy="2" rx="16" ry="9" />
+          </g>
+        </svg>
+      </div>
+
+      <!-- CENTRO -->
+      <div class="flower flower-center delay-2">
+        <svg class="flower-svg" viewBox="0 0 280 640" aria-hidden="true">
+          <path
+            class="stem-path"
+            d="M140 615
+               C 92 545, 192 492, 142 415
+               C 96 350, 190 300, 142 230
+               C 112 176, 160 130, 140 88"
+            pathLength="100"
+          />
+
+          <ellipse class="leaf leaf-1" cx="112" cy="430" rx="22" ry="50" transform="rotate(-58 112 430)" />
+          <ellipse class="leaf leaf-2" cx="168" cy="362" rx="20" ry="46" transform="rotate(47 168 362)" />
+          <ellipse class="leaf leaf-3" cx="116" cy="286" rx="18" ry="40" transform="rotate(-50 116 286)" />
+          <ellipse class="leaf leaf-4" cx="160" cy="212" rx="16" ry="34" transform="rotate(42 160 212)" />
+
+          <g class="bloom" transform="translate(140 88)">
+            <ellipse class="petal petal-top" cx="0" cy="-38" rx="30" ry="52" />
+            <ellipse class="petal petal-left" cx="-34" cy="-10" rx="28" ry="48" />
+            <ellipse class="petal petal-right" cx="34" cy="-10" rx="28" ry="48" />
+            <ellipse class="petal petal-bottom-left" cx="-22" cy="30" rx="24" ry="40" />
+            <ellipse class="petal petal-bottom-right" cx="22" cy="30" rx="24" ry="40" />
+            <ellipse class="petal petal-bottom" cx="0" cy="24" rx="34" ry="24" />
+            <ellipse class="center-dot" cx="0" cy="6" rx="18" ry="10" />
+          </g>
+        </svg>
+      </div>
+
+      <!-- DIREITA -->
+      <div class="flower flower-right delay-3">
+        <svg class="flower-svg" viewBox="0 0 260 590" aria-hidden="true">
+          <path
+            class="stem-path"
+            d="M130 568
+               C 170 510, 82 458, 128 390
+               C 170 332, 92 282, 128 220
+               C 150 176, 110 130, 130 84"
+            pathLength="100"
+          />
+
+          <ellipse class="leaf leaf-1" cx="154" cy="398" rx="20" ry="46" transform="rotate(55 154 398)" />
+          <ellipse class="leaf leaf-2" cx="108" cy="338" rx="18" ry="42" transform="rotate(-45 108 338)" />
+          <ellipse class="leaf leaf-3" cx="150" cy="270" rx="16" ry="36" transform="rotate(48 150 270)" />
+
+          <g class="bloom" transform="translate(130 84)">
+            <ellipse class="petal petal-top" cx="0" cy="-34" rx="26" ry="46" />
+            <ellipse class="petal petal-left" cx="-30" cy="-8" rx="24" ry="42" />
+            <ellipse class="petal petal-right" cx="30" cy="-8" rx="24" ry="42" />
+            <ellipse class="petal petal-bottom-left" cx="-18" cy="24" rx="22" ry="36" />
+            <ellipse class="petal petal-bottom-right" cx="18" cy="24" rx="22" ry="36" />
+            <ellipse class="petal petal-bottom" cx="0" cy="20" rx="30" ry="22" />
+            <ellipse class="center-dot" cx="0" cy="2" rx="16" ry="9" />
+          </g>
+        </svg>
+      </div>
+
+      <!-- GRAMADINHO -->
+      <div class="grass grass-1"></div>
+      <div class="grass grass-2"></div>
+      <div class="grass grass-3"></div>
+      <div class="grass grass-4"></div>
+      <div class="grass grass-5"></div>
+      <div class="grass grass-6"></div>
+      <div class="grass grass-7"></div>
+      <div class="grass grass-8"></div>
+      <div class="grass grass-9"></div>
+      <div class="grass grass-10"></div>
+      <div class="grass grass-11"></div>
+      <div class="grass grass-12"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
